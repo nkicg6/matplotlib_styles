@@ -1,0 +1,23 @@
+* Matplotlib styles
+Utility functions and personal matplotlibrc files for styling plots. 
+Meant to be an example, customize as you see fit. 
+[[file:make_color_cycler.py][make_color_cycler.py]] is a simple command line utility to generate 10 discrete hex colorcodes from the =matplotlib= built in colormaps for use in the =axes.prop_cycle= option. 
+
+** useage
+
+clone the directory
+
+#+BEGIN_SRC python 
+import matplotlib.pyplot as plt
+
+plt.style.use("path/to/matplotlibstyle/thesis.mplstyle") 
+#plot here...
+
+#+END_SRC
+
+default style:
+[[file:img/default_style.png]]
+
+
+Personal style:
+[[file:img/thesis_style.png]]
