@@ -1,0 +1,15 @@
+## Nick's matplotlib stylesheet
+## updated 2020-05-10
+## for axes.prop_cycle, comment/uncomment other cmaps to use. or comment out all the axes.prop_cycles to use default
+font.size : 14
+font.weight : bold
+legend.fontsize : 10
+legend.loc : upper right
+legend.frameon : False
+legend.fancybox : False
+lines.linewidth : 1
+axes.linewidth  : 2
+axes.titleweight : normal
+axes.prop_cycle : cycler('color', ['000000ff', '000000ff', '5500a4ff', '7803fbff', '9309ddff', 'aa1657ff', 'be2c00ff', 'd04c00ff', 'e17800ff', 'f0b300ff']) ## gnuplot
+#axes.prop_cycle : cycler('color', ['000000ff', '000000ff', '000071ff', '0000e3ff', '4200ffff', '9b0cf3ff', 'f345baff', 'ff7e81ff', 'ffb649ff', 'ffef10ff']) ## gnuplot2
+#axes.prop_cycle : cycler('color', ['440154ff', '440154ff', '482878ff', '3e4989ff', '31688eff', '26828eff', '1f9e89ff', '35b779ff', '6ece58ff', 'b5de2bff']) ## viridis

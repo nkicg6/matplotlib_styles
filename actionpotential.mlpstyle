@@ -1,0 +1,16 @@
+## Nick's matplotlib stylesheet
+## updated 2020-05-10
+## 
+font.size : 14
+font.weight : bold
+legend.fontsize : 10
+legend.loc : upper right
+legend.frameon : False
+legend.fancybox : False
+lines.linewidth : 1.5
+axes.linewidth  : 2
+axes.titleweight : normal
+axes.spines.left   : False
+axes.spines.bottom : False
+axes.spines.top    : False
+axes.spines.right  : False
