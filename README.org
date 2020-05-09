@@ -1,7 +1,16 @@
 * Matplotlib styles
 Utility functions and personal matplotlibrc files for styling plots. 
 Meant to be an example, customize as you see fit. 
-[[file:make_color_cycler.py][make_color_cycler.py]] is a simple command line utility to generate 10 discrete hex colorcodes from the =matplotlib= built in colormaps for use in the =axes.prop_cycle= option. 
+[[file:util/make_color_cycler.py][make_color_cycler.py]] is a simple command line utility to generate 10 discrete hex colorcodes from the =matplotlib= built in colormaps for use in the =axes.prop_cycle= option. 
+
+from =utils/= dir with matplotlib installed:
+
+#+BEGIN_SRC bash :results verbatim 
+python3 make_color_cycler.py 'viridis'
+# ['440154ff', '440154ff', '482878ff', '3e4989ff', '31688eff', '26828eff', '1f9e89ff', '35b779ff', '6ece58ff', 'b5de2bff']
+#+END_SRC
+
+You can paste the output into the correct category in the stylesheet to use it. 
 
 ** useage
 
@@ -21,3 +30,10 @@ default style:
 
 Personal style:
 [[file:img/thesis_style.png]]
+
+* Useful references
+- [[https://matplotlib.org/3.2.1/tutorials/text/usetex.html][matplotlib LaTeX]]
+- [[https://matplotlib.org/3.2.1/tutorials/introductory/customizing.html#customizing-with-matplotlibrc-files][example stylesheet]]
+- [[https://matplotlib.org/3.2.1/tutorials/introductory/customizing.html#customizing-with-matplotlibrc-files][rcParams]]
+- [[https://matplotlib.org/3.2.1/tutorials/text/mathtext.html][matplotlib mathtext]]
+
